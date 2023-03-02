@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 const App = () => {
   return (
     <>
-      <BrowserRouter basename={"/habit_tracker"}>
+      <BrowserRouter >
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/habit/:id" element={<Habits />}></Route>
